@@ -4,7 +4,7 @@ const NavigationBar = () => {
  
     return (
         <div>
-            <Navbar>
+            <Navbar variant="dark">
                 <Container>
                     <Navbar.Brand>CRTV Cinema</Navbar.Brand>
                     <Nav>
