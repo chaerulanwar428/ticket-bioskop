@@ -1,4 +1,4 @@
-
+import Trending from './components/Trending';
 import './App.css';
 import Intro from './components/Intro';
 import NavigationBar from './components/NavigationBar';
@@ -11,6 +11,9 @@ const App = () => {
       <div className="myBG">
       <NavigationBar/>
       <Intro/>
+      </div>
+      <div className="trending">
+        <Trending />
       </div>
     </div>
   );
