@@ -7,12 +7,14 @@ import NavigationBar2 from '../components/NavigationBar2';
 const HalamanKedua = () => {
  
   return (
+    <>
     <div>
       <NavigationBar2/>
       <div className='jadwalbesok'>
         <List/>
       </div>
-      </div>
+    </div>
+    </>
   );
 }
 
