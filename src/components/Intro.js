@@ -1,9 +1,7 @@
 import {Col,Row, Container, Button } from 'react-bootstrap';
-import { useNavigate } from 'react-router';
 
-const Intro = () =>{
-    const navigate = useNavigate()
-    return(
+
+const Intro = () =>{    return(
         <div className="intro">
         <Container className="text-white text-center d-flex justify-content-center align-items-center">
           <Row>
@@ -11,7 +9,7 @@ const Intro = () =>{
             <div className="title">NONTON GRATIS</div>
             <div className="title">NGGA PAKE KARCIS</div>
             <div className="IntroButton mt-4 text-center">
-                <Button variant="dark" onClick={()=>navigate('/HalamanKedua')}>CEK JADWAL BESOK</Button>
+                <Button variant="dark">PROMO TANGGAL 30 FEBRUARI</Button>
             </div>   
             </Col>
           </Row>

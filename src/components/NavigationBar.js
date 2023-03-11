@@ -9,7 +9,7 @@ const NavigationBar = () => {
                     <Navbar.Brand href="/">CRTV Cinema</Navbar.Brand>
                     <Nav>
                         <Nav.Link href="#trending">TRENDING</Nav.Link>
-                        <Nav.Link href="#superhero">SUPERHERO</Nav.Link>
+                        <Nav.Link href="#jadwalbesok">UPCOMING</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
