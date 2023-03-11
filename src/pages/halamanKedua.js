@@ -1,6 +1,5 @@
 import List from '../components/List';
 import '../App.css';
-import NavigationBar from '../components/NavigationBar';
 import "../style/landingpage.css";
 import NavigationBar2 from '../components/NavigationBar2';
 
