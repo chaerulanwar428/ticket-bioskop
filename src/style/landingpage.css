@@ -24,6 +24,11 @@
     background:url("../assets/images/bg/scifi.jpg");
     background-size: cover;
 }
+.superhero{
+    height: auto;
+    background:url("../assets/images/bg/spiderman.jpg");
+    background-size: cover;
+}
 
 .movieImage{
     height: auto;
@@ -33,8 +38,4 @@
 
 .images{
 height: 500px;
-}
-
-.movieWrapper{
-
 }

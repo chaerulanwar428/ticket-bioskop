@@ -3,6 +3,7 @@ import './App.css';
 import Intro from './components/Intro';
 import NavigationBar from './components/NavigationBar';
 import "./style/landingpage.css";
+import Superhero from './components/Superhero';
 
 const App = () => {
  
@@ -12,8 +13,11 @@ const App = () => {
       <NavigationBar/>
       <Intro/>
       </div>
-      <div className="trending">
+      <div className="trending" id="trending">
         <Trending />
+      </div>
+      <div className="superhero" id="superhero">
+        <Superhero/>
       </div>
     </div>
   );
