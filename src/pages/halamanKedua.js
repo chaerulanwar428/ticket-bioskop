@@ -1,7 +1,8 @@
-import List from '../components/List';
+// import List from '../components/List';
 import '../App.css';
 import "../style/landingpage.css";
 import NavigationBar2 from '../components/NavigationBar2';
+import Trending from '../components/Trending';
 
 
 const HalamanKedua = () => {
@@ -11,7 +12,8 @@ const HalamanKedua = () => {
     <div>
       <NavigationBar2/>
       <div className='jadwalbesok'>
-        <List/>
+        {/* <List/> */}
+        <Trending/>
       </div>
     </div>
     </>
