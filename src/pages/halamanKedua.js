@@ -8,13 +8,11 @@ const HalamanKedua = () => {
  
   return (
     <div>
-      <div className="myBG">
       <NavigationBar2/>
       <div className='jadwalbesok'>
         <List/>
       </div>
       </div>
-    </div>
   );
 }
 
