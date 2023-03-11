@@ -1,25 +1,17 @@
-import Trending from './components/Trending';
 import './App.css';
-import Intro from './components/Intro';
-import NavigationBar from './components/NavigationBar';
-import "./style/landingpage.css";
-import Superhero from './components/Superhero';
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import HalamanKesatu from './pages/HalamanKesatu';
+import HalamanKedua from './pages/HalamanKedua';
 
 const App = () => {
  
   return (
-    <div>
-      <div className="myBG">
-      <NavigationBar/>
-      <Intro/>
-      </div>
-      <div className="trending" id="trending">
-        <Trending />
-      </div>
-      <div className="superhero" id="superhero">
-        <Superhero/>
-      </div>
-    </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HalamanKesatu/>}/>
+          <Route path="/HalamanKedua" element={<HalamanKedua/>}/>
+        </Routes>
+      </Router>
   );
 }
 
