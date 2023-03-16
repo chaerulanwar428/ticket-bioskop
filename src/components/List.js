@@ -10,6 +10,8 @@ import driftinghomeImage from '../assets/images/besok/driftinghome.jpg';
 const List = () => {
     return(
         <Container>
+            <br/>
+            <h1 className='text-white' >Up Coming</h1>
             <Row>
                 <Col md={4} className="movieWrapper">
                 <Card className="text-white movieImage">
